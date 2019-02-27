@@ -1,0 +1,18 @@
+package javaBasics;
+
+public class MathFunction {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double i= Math.ceil(7.5);
+		System.out.println(i);
+		
+		double j= Math.floor(7.5);
+		System.out.println(j);
+		
+		double k= Math.round(7.2);
+		System.out.println(k);
+    
+    }
+    }
