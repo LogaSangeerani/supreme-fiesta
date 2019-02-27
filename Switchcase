@@ -1,0 +1,31 @@
+package javaBasics;
+
+public class Switchcase {
+
+	public static void main(String[] args) {
+		
+		int n= 1;
+		switch(n)
+		{
+			
+		  case 1: 
+			  System.out.print("case 1");
+			  int k=1;
+			  switch(k)
+			  {
+			  case 1: System.out.print("case 1");
+			         
+			  }
+			  
+			  
+		  case 2:
+			  System.out.print("case 2");
+			  break;
+			  
+	      default:
+	    	  System.out.print("default");
+		}
+
+	}
+
+}
