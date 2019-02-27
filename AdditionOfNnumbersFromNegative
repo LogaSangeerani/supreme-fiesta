@@ -1,0 +1,24 @@
+package javaBasics;
+
+import java.util.Scanner;
+
+public class AdditionOfNnumbersFromNegative {
+
+	public static void main(String[] args) {
+		// Addition of n numbers from -5
+		
+				int n,sum=0,i=-5;
+				
+				Scanner sc= new Scanner(System.in);
+				System.out.println("Enter number of value to be added");
+				n=sc.nextInt();
+				
+				while(i<=n)
+				{
+					sum=sum+i;
+					i++;
+				}
+				System.out.println(sum);
+			}
+
+	}
