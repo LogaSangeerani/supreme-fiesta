@@ -1,0 +1,23 @@
+package javaBasics;
+
+public class MaxNum {
+	
+	//To find maximum number using conditional operator
+	
+	int max(int a, int b)
+	{
+		
+		int c=(a>b ? a:b);
+		return c;
+			
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		MaxNum obj = new MaxNum();
+		int c = obj.max(7,9);
+		System.out.println(c+" is the maximum number");
+		
+		}
+
+}
