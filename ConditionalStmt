@@ -1,0 +1,16 @@
+package javaBasics;
+
+public class ConditionalStmt {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int a=1,b=2,c=3,d=0;
+		
+		int e=((d=(a>b)?a:b)>c?d:c);
+		
+		System.out.print(e);
+
+	}
+
+}
