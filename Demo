@@ -1,0 +1,26 @@
+package javaBasics;
+
+public class Demo {
+
+	public static void Main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		System.out.println("Hai ");
+		/*Test1 t = new Test1();
+		int b = t.add();
+		System.out.print(b);*/
+
+	}
+
+}
+
+/*class Demo
+{
+	int add()
+	{
+	int a=0;
+	System.out.print("Hai");
+	return a; 
+	}
+}*/
