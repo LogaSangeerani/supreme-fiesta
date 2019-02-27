@@ -1,0 +1,31 @@
+package javaBasics;
+
+import java.util.Scanner;
+
+public class Fibinocci {
+
+	public static void main(String[] args) {
+		// Fibinocci of n numbers
+		
+		int f=0,s=1;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter number of value");
+		int n = sc.nextInt();
+		
+		System.out.println(f);
+		System.out.println(s);
+		
+		while(s<n)
+		{
+			f=f+s;
+			System.out.println(f);
+			s=f+s;
+			System.out.println(s);
+		}
+		
+
+	}
+
+}
