@@ -1,0 +1,41 @@
+package javaBasics;
+
+class Teachers
+{
+ void teach()
+ {
+	 System.out.println("Teaching Subjects");
+ }
+}
+
+class Students extends Teachers
+{
+ void listen()
+ {
+	 System.out.println("Listening to teacher");
+ }
+}
+
+class Hometuition extends Students
+{
+ void explains()
+ {
+	 System.out.println("Does homework");
+ }
+}
+
+
+public class MultiLevelInheritance {
+
+	public static void main(String[] args) {
+		
+		// Multi Level Inheritance
+		
+		Hometuition h = new Hometuition();
+		h.explains();
+		h.teach();
+		h.listen();
+
+	}
+
+}
