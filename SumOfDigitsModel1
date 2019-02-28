@@ -1,0 +1,22 @@
+package javaBasics;
+
+public class SumOfDigitsModel1 {
+
+	public static void main(String[] args) {
+		
+		// (value>0)
+
+		int box = 0;
+		int value = 1234;
+		
+		while(value > 0)
+		{
+			int res = value % 10;
+			value = value / 10;
+			box = box + res;
+		}
+		
+		System.out.println(box);
+	}
+
+}
