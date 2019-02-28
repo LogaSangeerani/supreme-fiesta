@@ -1,0 +1,15 @@
+package javaBasics;
+
+public class Trial3 {
+
+	public static void main(String[] args) {
+		
+		//R-->82
+		
+		char a = 'R';
+		int t = a;
+		System.out.println(t);
+
+	}
+
+}
