@@ -1,0 +1,40 @@
+package javaBasics;
+
+class Teacher1
+{
+ void teach()
+ {
+	 System.out.println("Teaching Subjects");
+ }
+}
+
+class Student1 extends Teacher1
+{
+ void listen()
+ {
+	 System.out.println("Listening to teacher");
+ }
+}
+
+class Principal extends Teacher
+{
+ void evaluate()
+ {
+	 System.out.println("Evaluating");
+ }
+}
+
+public class Hierarchial {
+
+	public static void main(String[] args) {
+		
+		// Hierarchial Inheritance
+		
+		Principal p = new Principal();
+		p.evaluate();
+		p.teach();
+		
+		//p.listen; error
+	}
+
+}
