@@ -1,0 +1,15 @@
+package javaBasics;
+
+public class Trial1 {
+
+	public static void main(String[] args) {
+		
+		//Trial 1 --> k=107
+		
+		char a = 'k';
+		int res = a % 10;
+		System.out.println(res);
+
+	}
+
+}
