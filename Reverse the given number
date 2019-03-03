@@ -1,0 +1,28 @@
+package javaBasics;
+
+import java.util.Scanner;
+
+public class ReverseNumberUsingWhile {
+	
+	private static Scanner sc;
+
+	public static void main(String[] args)
+	{
+		int n,rem,rev=0;
+		
+		sc=new Scanner(System.in);	
+		System.out.println("enter a number to reverse");
+		n=sc.nextInt();
+		
+		while(n>0)
+		{
+			rem=n%10;
+			rev=rev*10 + rem;
+			n=n/10;
+		}
+		
+		System.out.println("reverse of entered number is "+rev);
+	}
+	
+
+}
