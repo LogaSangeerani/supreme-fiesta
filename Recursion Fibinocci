@@ -1,0 +1,47 @@
+package javaBasics;
+
+public class RecursionFibinocci {
+	
+	//int f=0,s=1,
+	int t=0;
+	
+   int recursion(int f, int s)
+	{
+    	
+		if(s<13)
+		{
+		 t=f+s;
+		//System.out.println(t);
+		f=s;
+		s=t;
+		System.out.print(t);
+		recursion(f,s);
+		}
+		//System.out.println(t);
+		return 1;
+	}
+   
+   int print(int n)
+   {
+	   if(n>0)
+	   {
+		   print(n-1);
+		   System.out.println(n);
+	   }
+	   //System.out.println(n);
+	   return n;
+   }
+    
+
+	public static void main(String[] args) {
+		
+	RecursionFibinocci rf=new RecursionFibinocci();
+	System.out.print(0);
+	System.out.print(1);
+	//int a=
+	rf.recursion(0,1);
+	rf.print(10);
+	//System.out.println("recursion return vaue: "+a);
+	}
+
+}
