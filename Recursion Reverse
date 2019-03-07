@@ -1,0 +1,38 @@
+package javaBasics;
+
+public class RecursionReverse {
+	
+	int add=0,rem=0;
+	
+	int recursion(int num)
+	{
+		if(num>0)
+		{
+			rem=num%10;
+			add=(add*10) + rem;
+			num=num/10;
+			recursion(num);
+		}
+		return add;
+	}
+	
+
+	public static void main(String[] args) {
+		// Reverse a number using Recursion
+		
+		/*int num = 1234,add=0,rem=0;
+		while(num>0)
+		{
+			rem=num%10;
+			add=(add*10) + rem;
+			num=num/10;
+		}
+		System.out.println(add);*/
+		
+		RecursionReverse obj = new RecursionReverse();
+		int reverse = obj.recursion(1234);
+		System.out.println(reverse);
+
+	}
+
+}
