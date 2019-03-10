@@ -1,0 +1,24 @@
+package array;
+
+public class CloneAnArray {
+
+	public static void main(String[] args) {
+		
+		//Cloning or Copying an array
+		
+		int a[]={3,6,7,1,9};
+		int b[]=new int[a.length];
+		
+		for(int i=0;i<a.length;i++)
+		{
+			b[i]=a[i];
+		}
+		
+		for(int i=0;i<a.length;i++)
+		{
+			System.out.print(b[i]+" ");
+		}
+
+	}
+
+}
