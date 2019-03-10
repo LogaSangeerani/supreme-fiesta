@@ -1,0 +1,24 @@
+package array;
+
+public class SwapUsingIndexSingleFor {
+
+	public static void main(String[] args) {
+		// Swapping Using Index Single For
+		
+		int a[]={7,8,2,3,5};
+		
+		int indexA=1;
+		int indexB=3;
+		
+		int temp=a[indexA];
+		a[indexA]=a[indexB];
+		a[indexB]=temp;
+		
+		for(int i=0;i<a.length;i++)
+		{
+			System.out.print(a[i]+" ");
+		}
+
+	}
+
+}
