@@ -1,0 +1,21 @@
+package array;
+
+public class FindMiddleElementInAnArray {
+
+	public static void main(String[] args) {
+		// Find middle element in an array
+		
+		int a[]={3,8,4,5,9};
+		
+		
+		if(a.length%2==0)
+		{
+			System.out.println(a[a.length/2]);
+			System.out.println(a[(a.length/2-1)]);
+		}
+		else
+			System.out.println(a[a.length/2]);
+		}
+	
+
+}
