@@ -1,0 +1,33 @@
+package array;
+
+public class SwappingElementsUsingFor {
+
+	public static void main(String[] args) {
+		// Swapping elements using array
+		
+		int a[]={2,8,4,5,8};
+		
+		int x=8,y=5;
+        for(int i=0;i<a.length;i++)
+        {
+        	if(a[i]==x)
+        		{
+        		a[i]=y;
+        		//System.out.println(a[i]);
+        		}
+        	
+        	else if(a[i]==y)
+        		{
+        		a[i]=x;
+        		//System.out.println(a[i]);
+        		}
+        }
+        
+        for(int i=0;i<a.length;i++)
+        {
+        	System.out.print(a[i]+" ");
+        }
+
+	}
+
+}
