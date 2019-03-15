@@ -1,0 +1,46 @@
+package string;
+
+public class FindVowelsInSentence {
+
+	public static void main(String[] args) {
+		
+		String s="Malala got nobel prize for peace";
+		
+		int acount=0,ecount=0,icount=0,ocount=0,ucount=0,spcount=0;
+		
+		for(int i=0;i<s.length();i++)
+		{
+			if(s.charAt(i)=='a')
+				acount++;
+			if(s.charAt(i)=='e')
+				ecount++;
+			if(s.charAt(i)=='i')
+				icount++;
+			if(s.charAt(i)=='o')
+				ocount++;
+			if(s.charAt(i)=='u')
+				ucount++;
+			if(s.charAt(i)==' ')
+				spcount++;
+			
+		}
+		
+		System.out.println("a: "+acount);
+		System.out.println("e: "+ecount);
+		System.out.println("i: "+icount);
+		System.out.println("o: "+ocount);
+		System.out.println("u: "+ucount);
+		System.out.println("space: "+spcount);
+		
+
+	}
+
+}
+
+output:
+a: 4
+e: 4
+i: 1
+o: 3
+u: 0
+space: 5
