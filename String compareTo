@@ -1,0 +1,37 @@
+Output:
+-23
+23
+-1
+1
+-8
+8
+
+package string;
+
+public class CompareTo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String s="azar";
+		String ss="xavier";
+		
+		System.out.println(s.compareTo(ss));
+		System.out.println(ss.compareTo(s));
+		
+		String s1="Ram";
+		String ss1="Sam";
+		
+		System.out.println(s1.compareTo(ss1));
+		System.out.println(ss1.compareTo(s1));
+		
+		
+		String s11="UK";
+		String ss11="US";
+		
+		System.out.println(s11.compareTo(ss11));
+		System.out.println(ss11.compareTo(s11));
+	}
+
+}
+
