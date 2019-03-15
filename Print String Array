@@ -1,0 +1,23 @@
+package stringArray;
+
+public class PrintStringArray {
+
+	public static void main(String[] args) {
+		
+		String s[]={"Chennai","Vilupuram","Vellore","Dindigul"};
+		
+		for(int i=0;i<s.length;i++)
+		{
+			System.out.println(s[i]);
+		}
+
+		String s1="Malala got noble prize for peace";
+		String ss[]=s1.split(" ");
+		
+		for(int i=0;i<ss.length;i++)
+		{
+			System.out.println(ss[i]);
+		}
+	}
+
+}
