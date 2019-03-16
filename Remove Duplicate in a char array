@@ -1,0 +1,44 @@
+package array;
+
+public class RemoveDuplicatesInACharArray {
+
+	public static void main(String[] args) {
+		
+		String s="JavaProgram";
+		char c[]=s.toCharArray();
+		
+		for(int i=0;i<c.length;i++)
+		{
+			for(int j=i+1;j<c.length;j++)
+			{
+				if(c[i]==c[j])
+				{
+				c[i]=' ';
+				}
+			}
+		}
+		
+		/*for(int i=0;i<c.length;i++)
+		{
+			System.out.println(c[i]);
+		}*/
+		
+		/*String ss1=String.valueOf(c);*/
+		
+		String ss="";
+		for(int i=0;i<c.length;i++)
+		{
+			if(c[i]!=' ')
+			{
+				ss=ss+c[i];
+			}
+		}
+        
+		System.out.println(ss);
+
+	}
+
+}
+
+output:
+JvPogram
