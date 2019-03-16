@@ -1,0 +1,23 @@
+package array;
+
+public class CharArrayToStringWithoutMethod {
+	
+	public static void main(String[] args)
+	{
+		char c[]={'a','e','i','o','u'};
+		
+		/*String s=String.valueOf(c);
+		System.out.println(s);*/
+		
+		String s="";
+		for(int i=0;i<c.length;i++)
+		{
+			s=s+c[i];
+		}
+		
+		System.out.println(s);
+	}
+}
+
+output:
+JvPogram
