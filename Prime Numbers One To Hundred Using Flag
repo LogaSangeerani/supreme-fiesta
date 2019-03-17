@@ -1,0 +1,35 @@
+package javaset1;
+
+public class PrimeNumbersOneToHundredUsingFlag {
+
+	public static void main(String[] args) {
+		
+		// Prime Numbers From 1 to 100 using Counter
+		
+				Boolean flag = true;
+				
+				System.out.print("The prime numbers are : ");
+				
+				for(int num=2;num<=100;num++)
+				{
+					flag=true;
+				 for(int i=2;i<=num/2;i++)
+				 {
+					 if(num%i==0)
+					 {
+						 flag=false;
+						 break;
+					 }
+				 }
+				 
+				 if(flag)
+				 {
+					 System.out.print(num+" ");
+				 }
+				}
+	}
+
+}
+
+output:
+The prime numbers are : 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97 
