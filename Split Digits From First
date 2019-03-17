@@ -1,0 +1,30 @@
+package javaset1;
+
+public class SplitDigitsFromFirst {
+
+	public static void main(String[] args) {
+		
+		//Split digits from first
+		int num= 9743,a=0,n=0;
+		for(int i=1;i<=num;i=i*10)
+		{
+			a=i;
+		}
+
+		while(num>0)
+		{
+			n=num/a;
+			num=num%a;
+			a=a/10;
+			
+			System.out.println(n);
+		}
+	}
+
+}
+
+output:
+9
+7
+4
+3
