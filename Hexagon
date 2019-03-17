@@ -1,0 +1,36 @@
+package patternpgm;
+
+public class Hexagon {
+
+	public static void main(String[] args) {
+		
+		int n=3,a=1;
+		for(int i=1;i<=n;i++)
+		{
+			if(i%2==1)
+			{
+				System.out.print(" "+a);
+				a++;
+				System.out.print(a+" ");
+				a++;
+				System.out.println();
+			}
+			
+			else
+			{
+				System.out.print(a+" ");
+				a++;
+				System.out.print(" "+a);
+				a++;
+				System.out.println();
+			}
+		}
+
+	}
+
+}
+
+output:
+ 12 
+3  4
+ 56 
