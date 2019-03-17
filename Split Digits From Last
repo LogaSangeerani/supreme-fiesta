@@ -1,0 +1,28 @@
+package javaset1;
+
+public class SplitDigitsFromLast {
+
+	public static void main(String[] args) {
+		
+		//Split digits from last
+		
+		int num=9743,a=0,rem=0;
+		
+		while(num>0)
+		{
+			rem=num%10;
+			num=num/10;
+			a=a/10;
+			
+			System.out.println(rem);
+			
+		}
+			
+	}
+
+}
+output:
+3
+4
+7
+9
